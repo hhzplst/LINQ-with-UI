@@ -1,5 +1,5 @@
 namespace LINQwithUI {
-  public class Memeber {
+  public class Member {
     private static int nextID = 1000;
     public string FirstName {get; set;}
     public string LastName {get; set;}
