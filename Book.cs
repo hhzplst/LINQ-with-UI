@@ -9,8 +9,8 @@ namespace LINQwithUI {
     public string Publisher {get; set;}
     public string[] Authors {get; set;}
     public List<string> SubjectHeadings {get; set;}
-    public bool IfAvailable {get;}
-    public int BorrowerID {get;}
+    public bool IfAvailable {get; set;}
+    public int BorrowerID {get; set;}
 
     public override string ToString() {
       return string.Format("{0, -5}{1, -5}{2, -20}{3, -20", "ID", "Year", "Title", "Authors" +
