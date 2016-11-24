@@ -9,7 +9,7 @@ namespace LINQwithUI {
     public string Publisher {get; set;}
     public string[] Authors {get; set;}
     public List<string> SubjectHeadings {get; set;}
-    public bool IfAvailable {get; set;}
+    public bool IfAvailable {get; set;} = true;
     public int BorrowerID {get; set;}
 
     public override string ToString() {
